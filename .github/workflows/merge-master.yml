@@ -3,7 +3,7 @@ run-name: merge master to live
 on: workflow_dispatch
 jobs:
   merge-master-to-live:
-      runs-on: ubuntu-latest
+      runs-on: ubuntu-latest 
       steps:
         - name: checkout-master
           uses: actions/checkout@v4.1.7
